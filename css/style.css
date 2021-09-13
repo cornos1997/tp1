@@ -1,0 +1,139 @@
+
+
+.entete
+{
+	justify-content: space-between;
+	    display: flex;
+}
+.menu-container
+{
+	display: flex;
+}
+
+#banniere
+{
+	background:url("../public/images/backgroung_image.jpg") center center/ cover;
+	height:300px;
+	display: flex;
+	justify-content:center;
+	flex-wrap: wrap;
+	align-content: center;
+}
+
+.adc
+{
+		display: flex;
+		text-align: center;
+		align-items: center;
+		justify-content:space-around;
+		padding-right: 50px;
+		padding-left: 50px;
+}
+
+.menu-container li
+{
+	list-style-type: none;
+	margin: 4%;
+	margin-right:10px;
+}
+
+article, .commentaire
+{
+	text-align:center;
+	margin-left: 100px;
+}
+
+footer
+{
+	background-color: rgb(91, 52, 158);
+	color: white;
+}
+
+.pied-page
+{
+	 display: inline-block;    
+	 vertical-align: top;
+	display: flex; 
+	justify-content: space-around;
+		
+}
+
+footer p
+{
+	text-align: center
+}
+
+section h4{
+	opacity: 0.7;
+}
+
+#icon
+{
+		text-align: center;
+		opacity: 0.7;
+}
+
+article{
+	margin-bottom: 70px;
+	margin-top: 0px;
+}
+
+.phrase
+{
+	width:100%;
+	text-align:center;
+	color:white;
+}
+
+
+.adc1
+{
+	opacity: 0.7;
+}
+
+@font-face {
+        font-family: Roboto-Regular.ttf;
+        src: url("./font/roboto/Roboto-Regular.ttf");}
+
+body
+{
+	        font-family: Roboto-Regular.ttf,serif;
+
+}
+@media screen and (max-width: 1280px)
+{
+	.menu-container
+	{
+		flex-direction: column;
+	}
+
+	#banniere
+	{
+		display: none;
+	}
+
+	.adc
+	{
+		flex-direction: column;
+	}
+
+	nav
+	{
+		height: 20px;
+	}
+
+	.lodo
+	{
+		width: 10px;
+		height: auto;
+	}
+	p
+	{
+		color: black;
+		font-size: 1.4em;
+	}
+	body
+	{
+		background-color: lightgray;
+	}
+}
